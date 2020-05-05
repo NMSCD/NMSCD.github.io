@@ -4,7 +4,26 @@
 <head>
 	<title>NMSCD - No Man's Sky Community Developers & Designers</title>
 	<meta charset="utf-8" />
+	<link rel="manifest" href="assets/favicon/manifest.json">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#000000">
+
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -14,27 +33,31 @@
 <body class="is-preload">
 	<div id="page-wrapper">
 		<header id="header" class="alt">
-			<h1><a href="/">NMSCD</a></h1>
+			<h1><a href="/" title="Home">NMSCD</a></h1>
 			<nav>
-				<a href="#menu">Menu</a>
+				<a href="#menu" title="Menu">Menu</a>
 			</nav>
 		</header>
 		<nav id="menu">
 			<div class="inner">
 				<ul class="links">
-					<li><a href="/">Home</a></li>
-					<li><a href="https://github.com/NMSCD">Github</a></li>
+					<li><a href="/" title="Home">Home</a></li>
+					<li><a href="https://github.com/NMSCD" title="Github">Github</a></li>
 					<li>
-						<a href="https://www.youtube.com/playlist?list=PLIjFqYF1O-TDACR0Kz8h0OXfolRHCiUE5">DevTalk</a>
+						<a href="https://www.youtube.com/playlist?list=PLIjFqYF1O-TDACR0Kz8h0OXfolRHCiUE5"
+							title="DevTalk">DevTalk</a>
 					</li>
-					<li><a href="https://github.com/NMSCD/About#how-to-join">Join us!</a></li>
+					<li><a href="https://github.com/NMSCD/About#how-to-join" title="Join us!">Join us!</a></li>
 				</ul>
-				<a href="#" class="close">Close</a>
+				<a href="#" class="close" title="close">Close</a>
 			</div>
 		</nav>
 		<section id="banner">
 			<div class="inner">
-				<div class="logo"><img src="https://avatars1.githubusercontent.com/u/62565964?s=200&v=4" /></div>
+				<div class="logo">
+					<img src="https://avatars1.githubusercontent.com/u/62565964?s=200&v=4"
+						alt="NMSCD Github Profile Pic" />
+				</div>
 				<h2>Welcome to the NMSCD</h2>
 				<p>
 					No Man's Sky Community Developer & Designers
@@ -44,7 +67,9 @@
 		<section id="wrapper">
 			<section id="one" class="wrapper spotlight style1">
 				<div class="inner">
-					<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+					<a href="https://github.com/NMSCD/About#how-to-join" title="Join us!" class="image">
+						<img src="assets/img/glitches.png" alt="Why does this exist?" />
+					</a>
 					<div class="content">
 						<h2 class="major">Why does this exist?</h2>
 						<p>
@@ -52,13 +77,17 @@
 							jobs working on their projects. But we could do so much more together! We are a collection
 							of Developers, Designers, etc... all focused on making NMS more enjoyable for it's players
 						</p>
-						<a href="https://github.com/NMSCD/About#how-to-join" class="special">Join us!</a>
+						<a href="https://github.com/NMSCD/About#how-to-join" title="Join us!" class="special">Join
+							us!</a>
 					</div>
 				</div>
 			</section>
 			<section id="two" class="wrapper alt spotlight style2">
 				<div class="inner">
-					<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+					<a href="https://github.com/NMSCD/No-Mans-Sky-Universal-Font" title="NMSCD Universal Font"
+						class="image">
+						<img src="assets/img/smallTech.png" alt="What are we working on?" />
+					</a>
 					<div class="content">
 						<h2 class="major">What are we working on?</h2>
 						<p>
@@ -69,27 +98,28 @@
 							give Developers and Designers a beautiful NMS themed font, fixing many of the imperfections
 							of the <a href="https://nomanssky.com">nomanssky.com</a> version.
 						</p>
-						<a href="https://github.com/NMSCD/No-Mans-Sky-Universal-Font" class="special">Learn more</a>
+						<a href="https://github.com/NMSCD/No-Mans-Sky-Universal-Font" title="NMSCD Universal Font"
+							class="special">Learn more</a>
 					</div>
 				</div>
 			</section>
 			<section id="three" class="wrapper spotlight style3">
 				<div class="inner">
-					<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+					<a href="https://github.com/NMSCD/About#how-to-join" title="Join us!" class="image">
+						<img src="assets/img/robot.png" alt="Private Discord" />
+					</a>
 					<div class="content">
 						<h2 class="major">Private Discord</h2>
 						<p>
 							A Discord full of Developers, Designers, etc... for you to ask questions or bounce your
-							ideas
-							off of. We can help each other solve problems as well as possibly integrating with each
-							other!
+							ideas off of. We can help each other solve problems as well as possibly integrating with
+							each other!<br />Acceptance is a manual process at the moment.
 						</p>
-						<a href="https://github.com/NMSCD/About#how-to-join" class="special">Join us!</a>
+						<a href="https://github.com/NMSCD/About#how-to-join" title="Join us!" class="special">Join
+							us!</a>
 					</div>
 				</div>
 			</section>
-
-			<!-- Four -->
 			<section id="four" class="wrapper alt style1">
 				<div class="inner">
 					<h2 class="major">Dev Talks</h2>
@@ -100,49 +130,44 @@
 					</p>
 					<section class="features">
 						<article>
-							<a href="https://www.youtube.com/watch?v=006W9nxmlZ4" class="image">
+							<a href="https://www.youtube.com/watch?v=006W9nxmlZ4" title="DevTalk" class="image">
 								<img src="assets/img/devtalk.png" alt="dev talk" />
 							</a>
 							<h3 class="major">DevTalk 2020-05-01</h3>
 							<p>Our second DevTalk, this aired the day after the AssistantNMS website got a redesign!</p>
-							<a href="https://www.youtube.com/watch?v=006W9nxmlZ4" class="special">Watch on Youtube</a>
+							<a href="https://www.youtube.com/watch?v=006W9nxmlZ4" title="DevTalk" class="special">Watch
+								on Youtube</a>
 						</article>
 						<article>
-							<a href="https://www.youtube.com/watch?v=uAHnLekdmyg" class="image">
+							<a href="https://www.youtube.com/watch?v=uAHnLekdmyg" title="DevTalk" class="image">
 								<img src="assets/img/devtalk.png" alt="dev talk" />
 							</a>
 							<h3 class="major">DevTalk</h3>
 							<p>The first Prepared Dev Talk stream! We are still learning so please bear with us 😅</p>
-							<a href="https://www.youtube.com/watch?v=uAHnLekdmyg" class="special">Watch on Youtube</a>
+							<a href="https://www.youtube.com/watch?v=uAHnLekdmyg" title="DevTalk" class="special">Watch
+								on Youtube</a>
 						</article>
 					</section>
 					<ul class="actions">
 						<li>
 							<a href="https://www.youtube.com/playlist?list=PLIjFqYF1O-TDACR0Kz8h0OXfolRHCiUE5"
-								class="button">DevTalk Playlist</a>
+								title="DevTavlk Playlist" class="button">DevTalk Playlist</a>
 							<a href="https://www.youtube.com/channel/UCpKNMVk7ZWvBk-psQQZqz5w"
-								class="button">AssistantNMS Youtube Channel</a>
+								title="AssistantNMS Youtube Channel" class="button">AssistantNMS Youtube Channel</a>
 						</li>
 					</ul>
 				</div>
 			</section>
-
 		</section>
 
-		<!-- Footer -->
 		<section id="footer">
 			<div class="inner">
 				<h2 class="major">Get in touch</h2>
 				<p>Please open a pull request or issue. You can also send an email to <a
 						href="mailto:support@nmsassistant.com">support@nmsassistant.com</a>, even though this is an
 					email address for AssistantNMS support, all AssistantNMS Developers, Designers, etc... are part of
-					the NMSCD Organisation</p>
+					the NMSCD Organisation and should be able to help you.</p>
 				<!-- <ul class="contact">
-					<li class="icon solid fa-home">
-						Untitled Inc<br />
-						1234 Somewhere Road Suite #2894<br />
-						Nashville, TN 00000-0000
-					</li>
 					<li class="icon solid fa-phone">(000) 000-0000</li>
 					<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
 					<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
@@ -150,12 +175,11 @@
 					<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
 				</ul> -->
 				<ul class="copyright">
-					<li><a href="https://github.com/NMSCD">NMSCD</a></li>
+					<li><a href="https://github.com/NMSCD" title="NMSCD">NMSCD</a></li>
 					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</div>
 		</section>
-
 	</div>
 
 	<script src="assets/js/jquery.min.js"></script>
