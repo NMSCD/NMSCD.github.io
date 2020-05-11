@@ -7,7 +7,7 @@
 /* Banner */
 
 	#banner {
-		@include padding(10em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
+		@include padding(4.75em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
 
 		.inner {
 			margin: 0 auto;
@@ -47,7 +47,8 @@
 			@include vendor('filter', 'blur(0)');
 			opacity: 1;
 			border-bottom: solid 2px _palette(border);
-			font-size: 2.25em;
+			font-size: 2.75em;
+			font-variant: small-caps;
 			margin-bottom: _size(element-margin) * 0.4;
 			padding-bottom: _size(element-margin) * 0.2;
 		}
@@ -63,7 +64,7 @@
 			@include vendor('filter', 'blur(0)');
 			opacity: 1;
 			font-family: _font(family-heading);
-			font-size: 1em;
+			font-size: 1.2em;
 			font-weight: _font(weight-heading);
 			letter-spacing: _font(kern-heading);
 			line-height: 2;
