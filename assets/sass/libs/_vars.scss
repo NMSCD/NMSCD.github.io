@@ -9,7 +9,7 @@ $duration: (menu: 0.35s,
 // Size.
 $size: (border-radius: 5px,
     element-height: 2.75em,
-    element-margin: 2em,
+    element-margin: 1em,
     inner: 55em,
     section-spacing: (large: 3em,
         medium: 2em,
@@ -19,9 +19,9 @@ $size: (border-radius: 5px,
         small: 2.5em));
 
 // Font.
-$font: (family: ('Source Sans Pro', Helvetica, sans-serif),
+$font: (family: (NMSGeoSans, Helvetica, sans-serif),
     family-fixed: ('Courier New', monospace),
-    family-heading: (Raleway, Helvetica, sans-serif),
+    family-heading: (NMSFuturaProBook, Helvetica, sans-serif),
     weight: 300,
     weight-bold: 600,
     weight-heading: 200,
