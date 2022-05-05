@@ -1,0 +1,4 @@
+Sitemap: https://nmscd.github.io/sitemap.xml
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /docs/
