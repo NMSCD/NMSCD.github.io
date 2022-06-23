@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import 'fontawesome-all.min.css';
 @import url("https://nmscd.github.io/No-Mans-Sky-Universal-Font/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.css");
 @import url("https://nmscd.github.io/No-Mans-Sky-Universal-Font/assets/font/NMSGeoSans_Kerned/Web-TT/NMSGeoSans_Kerned.css");
@@ -189,7 +188,7 @@ a.special:not(.button):before {
   transition: background-color 0.2s ease-in-out;
   border-radius: 100%;
   border: solid 2px rgba(255, 255, 255, 0.125);
-  content: "";
+  content: "\f105";
   display: inline-block;
   font-size: 1.25em;
   height: 2em;
@@ -1835,7 +1834,7 @@ input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
-  content: "";
+  content: "\f00c";
   color: #2e3141;
 }
 input[type=checkbox]:focus + label:before,
@@ -2549,7 +2548,7 @@ button,
   font-weight: 900;
 }
 #header nav a[href="#menu"]:before {
-  content: "";
+  content: "\f0c9";
   line-height: inherit;
 }
 #header nav a[href="#menu"]:hover {
