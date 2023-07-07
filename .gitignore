@@ -1,1 +1,7 @@
-/node_modules
+node_modules
+/.env
+/public/assets/css/main.css
+/public/assets/css/main.css.map
+/template/data/live.json
+/template/scss/third-party/_pico.scss
+/public/assets/img/members
