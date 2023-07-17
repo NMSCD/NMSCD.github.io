@@ -1,6 +1,6 @@
 {
   "name": "nmscd.web",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "scripts": {
     "build": "npm-run-all --sequential setup:* live:* sass:* template:*",
     "setup": "npm i && npm-run-all --sequential setup:* live:*",
