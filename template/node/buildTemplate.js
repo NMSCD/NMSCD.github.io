@@ -56,8 +56,12 @@ async function buildTemplates() {
         { src: 'site.webmanifest.hbs', dest: 'manifest.json' },
         { src: 'site.webmanifest.hbs', dest: 'site.webmanifest' },
         { src: 'sitemap.xml.hbs', dest: 'sitemap.xml' },
-        { src: 'serviceWorker.js.hbs', dest: 'serviceWorker.js' },
     ];
+
+    const enableServiceWorker = process?.env?.ENV_ENABLE_SERVICEWORKER ?? false; // To handle the damn serviceWorker cache on local
+    if (enableServiceWorker === true) {
+        files.push({ src: 'serviceWorker.js.hbs', dest: 'serviceWorker.js' });
+    }
 
     const generatedGitIgnoreFiles = [];
 
@@ -94,5 +98,7 @@ async function buildTemplates() {
 
     fs.writeFile(`${publicFolderPath}/.gitignore`, generatedGitIgnoreFiles.join('\n'), ['utf8'], () => { });
 }
+
+require('dotenv').config();
 
 buildTemplates()

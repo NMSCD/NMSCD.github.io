@@ -13,9 +13,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-3 ta-center">
-                        <img src="/assets/img/launch.svg" width="230px" height="230px"
+                        <img src="/assets/img/launch.svg" width="230" height="230"
                             data-comment="Explicit width and height for SEO purposes" alt="astronaut in space"
-                            draggable="false" />
+                            draggable="false">
                     </div>
                     <div class="col-9">
                         <h1>Welcome to the <span class="primary">NMSCD</span>
@@ -34,14 +34,14 @@
                         <div class="heading">
                             <h2>About us</h2>
                         </div>
-                        <span>{{meta.description}}</span><br />
+                        <span>{{meta.description}}</span><br>
                         <a href="https://github.com/NMSCD/About#how-to-join" title="join our community" role="button"
                             class="outline cta" target="_blank" rel="noopener noreferrer">Join our community!</a>
                     </div>
                     <div class="col-3 ta-center noselect">
-                        <img src="/assets/img/glitches.png" width="230px" height="230px"
+                        <img src="/assets/img/glitches.png" width="230" height="230"
                             data-comment="Explicit width and height for SEO purposes" alt="many items"
-                            draggable="false" />
+                            draggable="false">
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                         <div class="heading">
                             <h2>Projects</h2>
                         </div>
-                        <span>Supported by the NMSCD</span><br />
+                        <span>Supported by the NMSCD</span><br>
                         <div class="list">
                             {{#each projects}}
                             {{> components/project }}
@@ -83,8 +83,10 @@
         {{> components/footer}}
 
     </div>
+
+    {{> components/scripts }}
+
 </body>
 
-{{> components/scripts parallax="true" testimonials="true"}}
 
 </html>
