@@ -79,15 +79,3 @@ footer {
         text-align: center;
     }
 }
-
-@media screen and (max-width: 992px) {
-    section,
-    footer {
-        text-align: center !important;
-
-        .heading,
-        .heading + span {
-            text-align: center !important;
-        }
-    }
-}
