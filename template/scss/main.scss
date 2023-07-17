@@ -9,6 +9,7 @@
 @use "banner";
 @use "members";
 @use "projects";
+@use "responsive";
 @use "scrollbar";
 
 * {
@@ -63,18 +64,6 @@ img {
 
 .hidden {
     display: none;
-}
-
-.hidden-in-desktop {
-    @media screen and (min-width: 1000px) {
-        display: none;
-    }
-}
-
-.hidden-in-mobile {
-    @media screen and (max-width: 1000px) {
-        display: none !important;
-    }
 }
 
 .hidden {

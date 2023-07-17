@@ -1,12 +1,12 @@
 <article class="row project-tile">
-    <div class="col-9">
+    <div class="col-9 text-column">
         <h3>{{title}}</h3>
         <p>{{{description}}}</p>
     </div>
     <div class="col-3 image-column noselect">
         <img src="{{imageUrl}}" alt="{{title}}" draggable="false">
     </div>
-    <div class="col-9">
+    <div class="col-9 links-column">
         <div class="links noselect">
             {{#each links}}
             <a href="{{urlref url}}" role="button" class="outline" title="{{title}}" target="_blank"
@@ -14,5 +14,5 @@
             {{/each}}
         </div>
     </div>
-    <div class="col-3 image-column noselect"></div>
+    <div class="col-3 empty-column noselect"></div>
 </article>

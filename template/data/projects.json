@@ -83,6 +83,17 @@
       ]
     },
     {
+      "title": "DDS-Archive",
+      "description": "A repository to archive DDS texture files of different nms versions.",
+      "imageUrl": "/assets/img/dds.png",
+      "links": [
+        {
+          "title": "View repository",
+          "url": "https://github.com/NMSCD/nms-dds"
+        }
+      ]
+    },
+    {
       "title": "NMS Creature Builder",
       "description": "This is a tool to help people craft NMS creatures by allowing you to select the parts that can be used together.",
       "imageUrl": "/assets/img/creatureBuilder.png",
@@ -94,17 +105,6 @@
         {
           "title": "View repository",
           "url": "https://github.com/NMSCD/Creature-Builder"
-        }
-      ]
-    },
-    {
-      "title": "DDS-Archive",
-      "description": "A repository to archive DDS texture files of different nms versions.",
-      "imageUrl": "/assets/img/dds.png",
-      "links": [
-        {
-          "title": "View repository",
-          "url": "https://github.com/NMSCD/nms-dds"
         }
       ]
     },
