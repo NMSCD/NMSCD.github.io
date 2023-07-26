@@ -11,7 +11,7 @@ async function generateLiveJson() {
     }
 
     console.log('Fetching Members');
-    const nmscdMembersResponse = await fetch('https://api.github.com/orgs/NMSCD/members', { method: 'GET', headers: headers });
+    const nmscdMembersResponse = await fetch('https://api.github.com/orgs/NMSCD/members?per_page=50', { method: 'GET', headers: headers });
     const nmscdMembersInitialJson = await nmscdMembersResponse.json();
     const nmscdMembersWithoutNamesJson = nmscdMembersInitialJson.map(m => ({
         id: m.id,
@@ -43,7 +43,7 @@ async function generateLiveJson() {
     }
 
     let fullJson = {
-        members: nmscdMembersJson,
+        members: nmscdMembersJson.sort((a, b) => a.name.localeCompare(b.name)),
     };
 
     await Promise.all(nmscdMembersImgTasks);
