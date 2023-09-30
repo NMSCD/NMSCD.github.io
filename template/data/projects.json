@@ -215,7 +215,7 @@
     },
     {
       "title": "NMS Coordinate Converter",
-      "description": "A repository to archive mbin/exml files of different nms versions to give easy access to modders.",
+      "description": "Convert glyphs/coords to save format coordinates.",
       "imageUrl": "/assets/img/calc.png",
       "links": [
         {
