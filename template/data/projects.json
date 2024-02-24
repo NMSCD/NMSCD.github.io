@@ -184,17 +184,17 @@
       ]
     },
     {
-      "title": "BaseReorder",
+      "title": "Base-Reorder",
       "description": "Reorder the bases shown in the teleporter menu.",
       "imageUrl": "/assets/img/relocator.png",
       "links": [
         {
           "title": "View project website",
-          "url": "http://nmscd.com/BaseReorder/"
+          "url": "http://nmscd.com/Base-Reorder/"
         },
         {
           "title": "View repository",
-          "url": "https://github.com/NMSCD/BaseReorder"
+          "url": "https://github.com/NMSCD/Base-Reorder"
         }
       ]
     },
