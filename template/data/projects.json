@@ -215,7 +215,7 @@
     },
     {
       "title": "NMS Coordinate Converter",
-      "description": "A repository to archive mbin/exml files of different nms versions to give easy access to modders.",
+      "description": "Convert glyphs/coords to save format coordinates.",
       "imageUrl": "/assets/img/calc.png",
       "links": [
         {
@@ -281,6 +281,21 @@
         {
           "title": "View the project",
           "url": "https://github.com/NMSCD/No-Mans-Sky-Enhanced-Images"
+        }
+      ]
+    },
+    {
+      "title": "Image Compressor",
+      "description": "Compresses images to 10MB or less for use on the NMS wiki.",
+      "imageUrl": "/assets/img/imagecompressor.png",
+      "links": [
+        {
+          "title": "View project website",
+          "url": "https://www.nmscd.com/Image-Compressor/"
+        },
+        {
+          "title": "View repository",
+          "url": "https://github.com/NMSCD/Image-Compressor"
         }
       ]
     }

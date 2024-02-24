@@ -36,6 +36,12 @@ body {
     background-color: var.$bodyColour;
 }
 
+.row.justify {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .mt-8 {
     margin-top: 8em;
 }
