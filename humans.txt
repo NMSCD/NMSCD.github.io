@@ -12,7 +12,7 @@ Discord: @lenni009
 From: Germany
 
 /* SITE */
-Last update: 2023-10-04
+Last update: 2024-03-18
 Language: English
 Doctype: HTML5
 IDE: Visual Studio Code
