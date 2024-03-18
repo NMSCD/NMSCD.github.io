@@ -298,6 +298,51 @@
           "url": "https://github.com/NMSCD/Image-Compressor"
         }
       ]
+    },
+    {
+      "title": "Teleport Editor",
+      "description": "Add, remove and edit teleport endpoints in your save data.",
+      "imageUrl": "/assets/img/teleport.png",
+      "links": [
+        {
+          "title": "View project website",
+          "url": "https://nmscd.com/NMS-Teleport-Editor/"
+        },
+        {
+          "title": "View repository",
+          "url": "https://github.com/NMSCD/NMS-Teleport-Editor"
+        }
+      ]
+    },
+    {
+      "title": "Building Charts",
+      "description": "Visualise data about your base part counts.",
+      "imageUrl": "/assets/img/building-charts.png",
+      "links": [
+        {
+          "title": "View project website",
+          "url": "https://nmscd.com/Building-Charts/"
+        },
+        {
+          "title": "View repository",
+          "url": "https://github.com/NMSCD/Building-Charts"
+        }
+      ]
+    },
+    {
+      "title": "exml_2_lua",
+      "description": "Convert EXML files to lua tables and vice versa.",
+      "imageUrl": "/assets/img/exml_lua.png",
+      "links": [
+        {
+          "title": "View project website",
+          "url": "https://nmscd.com/Building-Charts/"
+        },
+        {
+          "title": "View repository",
+          "url": "https://github.com/roie-r/exml_2_lua"
+        }
+      ]
     }
   ]
 }
