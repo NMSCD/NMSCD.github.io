@@ -335,10 +335,6 @@
       "imageUrl": "/assets/img/exml_lua.png",
       "links": [
         {
-          "title": "View project website",
-          "url": "https://nmscd.com/Building-Charts/"
-        },
-        {
           "title": "View repository",
           "url": "https://github.com/roie-r/exml_2_lua"
         }
