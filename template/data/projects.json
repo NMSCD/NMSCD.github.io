@@ -339,6 +339,21 @@
           "url": "https://github.com/roie-r/exml_2_lua"
         }
       ]
+    },
+    {
+      "title": "NMS Wiki Page Creator",
+      "description": "This project/website allows you to easily make the necessary code so that you can easily upload your discoveries to the No Man's Sky wiki.",
+      "imageUrl": "/assets/img/wikipagecreator.png",
+      "links": [
+        {
+          "title": "View project website",
+          "url": "https://wiki.nmscd.com/"
+        },
+        {
+          "title": "View repository",
+          "url": "https://github.com/NMSCD/NMSWikiPageCreator"
+        }
+      ]
     }
   ]
 }
