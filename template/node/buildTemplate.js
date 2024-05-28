@@ -28,7 +28,9 @@ async function buildTemplates() {
     const siteData = JSON.parse(siteDataContents);
     const liveData = JSON.parse(liveDataContents);
     const projects = JSON.parse(projectsContents);
-
+    
+    projects.projects.sort((a,b) => (a.title.toLowerCase() > b.title.toLowerCase()) 
+        ? 1 : ((b.title.toLowerCase() > a.title.toLowerCase()) ? -1 : 0));
     const humansArray = [];
     for (const humanKey in siteData.humans) {
         if (Object.hasOwnProperty.call(siteData.humans, humanKey)) {

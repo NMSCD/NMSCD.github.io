@@ -1,0 +1,22 @@
+# Ignore dot files
+.githooks
+.github
+.storybook
+.vscode
+.xata
+
+# Ignore build files
+build
+dist
+
+# Ignore generated
+coverage
+node_modules
+
+# Ignore assets
+docs
+scripts
+
+# file types
+# **/.json
+# **/.yml
