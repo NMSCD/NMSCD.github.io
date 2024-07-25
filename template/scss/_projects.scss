@@ -1,6 +1,7 @@
 .show-in-list {
   display: none;
 }
+
 .show-in-grid {
   display: none;
 }
@@ -9,6 +10,11 @@ section.projects {
   padding-top: 3em;
   text-align: center;
 
+  .list-container {
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
+  }
+
   &.grid {
     .show-in-grid {
       display: unset;
@@ -16,7 +22,8 @@ section.projects {
 
     .list-container {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      opacity: 1;
     }
 
     .project-tile.show-in-grid {
@@ -66,6 +73,7 @@ section.projects {
       border-radius: var(--border-radius);
       background: var(--card-background-color);
       box-shadow: var(--card-box-shadow);
+      opacity: 1;
     }
 
     .project-tile.show-in-list {

@@ -15,6 +15,26 @@ const registerServiceWorker = async () => {
   }
 };
 
+const setProjectsSectionAsGridInMobile = async () => {
+  const projectSection = document.querySelector('section.projects');
+  projectSection.classList.forEach((cls) => {
+    if (cls != 'projects') {
+      projectSection.classList.remove(cls);
+    }
+  });
+
+  const width = window.screen.width;
+  if (width > 992) {
+    projectSection.classList.add('list');
+    const listBtn = document.querySelector('button[data-class="list"]');
+    listBtn.classList.add('selected')
+  } else {
+    projectSection.classList.add('grid');
+    const gridBtn = document.querySelector('button[data-class="grid"]');
+    gridBtn.classList.add('selected')
+  }
+};
+
 const setCardDisplay = (btn) => {
   const selectedClass = 'selected';
   document.querySelectorAll('.project-btn').forEach((node) => {
@@ -76,3 +96,4 @@ const highlight = (node, text, searchString) => {
 };
 
 registerServiceWorker();
+setProjectsSectionAsGridInMobile();
