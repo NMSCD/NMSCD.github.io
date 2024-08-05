@@ -354,6 +354,21 @@
           "url": "https://github.com/NMSCD/NMSWikiPageCreator"
         }
       ]
+    },
+    {
+      "title": "Frigate Calculator",
+      "description": "Get a rating for a frigate before buying it.",
+      "imageUrl": "/assets/img/frigate-calculator.png",
+      "links": [
+        {
+          "title": "View project website",
+          "url": "https://nmscd.com/frigate-calculator"
+        },
+        {
+          "title": "View repository",
+          "url": "https://github.com/NMSCD/frigate-calculator"
+        }
+      ]
     }
   ]
 }
