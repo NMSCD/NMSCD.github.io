@@ -1,73 +1,78 @@
 // Third party
-@use "third-party/nmscdFont";
-@use "third-party/simple-grid";
-@use "third-party/pico";
+@use 'third-party/nmscdFont';
+@use 'third-party/simple-grid';
+@use 'third-party/pico';
 
-@use "var";
-@use "page";
-@use "navbar";
-@use "banner";
-@use "members";
-@use "projects";
-@use "responsive";
-@use "scrollbar";
+@use 'var';
+@use 'page';
+@use 'navbar';
+@use 'banner';
+@use 'search';
+@use 'members';
+@use 'projects';
+@use 'responsive';
+@use 'scrollbar';
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --nav-background-color: rgba(56, 64, 75, 0.8);
-    --nav-border-color: rgba(165, 190, 200, 0.2);
+  --nav-background-color: rgba(56, 64, 75, 0.8);
+  --nav-border-color: rgba(165, 190, 200, 0.2);
 }
 
 #app-body {
-    // Pico css vars
-    --primary: #{var.$primaryColour};
-    --primary-hover: #{lighten(var.$primaryColour, 10%)};
-    --primary-focus: rgba(229, 30, 30, 0.25);
-    --primary-inverse: #fff;
+  // Pico css vars
+  --primary: #{var.$primaryColour};
+  --primary-hover: #{lighten(var.$primaryColour, 10%)};
+  --primary-focus: rgba(229, 30, 30, 0.25);
+  --primary-inverse: #fff;
 
-    --font-family: "NMSFuturaProBook";
+  --font-family: 'NMSFuturaProBook';
 }
 
 body {
-    color: #fff;
-    background-color: var.$bodyColour;
+  color: #fff;
+  background-color: var.$bodyColour;
 }
 
 .row.justify {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .mt-8 {
-    margin-top: 8em;
+  margin-top: 8em;
 }
 
 .max-1-line {
-    white-space: nowrap;
-    overflow: hidden;
-    display: block;
-    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
 }
 
 .ta-center {
-    text-align: center;
+  text-align: center;
 }
 
 .primary {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 .noselect,
 img {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .hidden {
-    display: none !important;
+  display: none !important;
+}
+
+.highlight {
+  background-color: var(--progress-color);
 }

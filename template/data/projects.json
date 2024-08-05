@@ -16,7 +16,7 @@
       ]
     },
     {
-      "title": "NMS Game Updates",
+      "title": "Game Updates",
       "description": "This project aims to show the latest update available for No Man's Sky per platform.",
       "imageUrl": "/assets/img/update.png",
       "links": [
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "title": "NMS Community Search",
+      "title": "Community Search",
       "description": "This project aims to be the \"Yellow pages\" of the NMS community. Our goal is to document the different Communities, tools, resources, builders and creators.",
       "imageUrl": "/assets/img/search.png",
       "links": [
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "title": "NMS Creature Builder",
+      "title": "Creature Builder",
       "description": "This is a tool to help people craft NMS creatures by allowing you to select the parts that can be used together.",
       "imageUrl": "/assets/img/creatureBuilder.png",
       "links": [
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "title": "NMS - Expedition Alphabet",
+      "title": "Expedition Alphabet",
       "description": "A secret No Man's Sky alphabet was teased with the Expedition releases. Once the Beachhead Expedition was released we were able to get most of the letters of the alphabet. This project displays all of the characters that we are pretty sure link up to the English Alphabet.",
       "imageUrl": "/assets/img/metaSquare.png",
       "links": [

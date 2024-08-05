@@ -13,8 +13,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-3 ta-center">
-                        <img src="/assets/img/launch.svg" width="230" height="230"
-                            data-comment="Explicit width and height for SEO purposes" alt="astronaut in space"
+                        <img src="/assets/img/ironVulture.png" width="237" height="176"
+                            data-comment="Explicit width and height for SEO purposes" alt="nms space ship"
                             draggable="false">
                     </div>
                     <div class="col-9">
@@ -47,7 +47,7 @@
             </div>
         </section>
 
-        <section class="projects">
+        <section class="projects list">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -55,7 +55,21 @@
                             <h2>Projects</h2>
                         </div>
                         <span>Supported by the NMSCD</span><br>
-                        <div class="list">
+                    </div>
+
+                    <div class="col-12 search">
+                        <article class="search">
+                            <input type="search" name="search" placeholder="Search for..."
+                                oninput="onSearchChange(this.value)" />
+                            <button class="secondary project-btn no-border-right hidden-in-mobile" data-class="list"
+                                onclick="setCardDisplay(this)" data-tooltip="List view" alt="List view">☰</button>
+                            <button class="secondary project-btn no-border-left hidden-in-mobile" data-class="grid"
+                                onclick="setCardDisplay(this)" data-tooltip="Grid view" alt="Grid view">&#x25a6</button>
+                        </article>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="list-container">
                             {{#each projects}}
                             {{> components/project }}
                             {{/each}}
