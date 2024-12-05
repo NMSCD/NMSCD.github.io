@@ -369,6 +369,21 @@
           "url": "https://github.com/NMSCD/frigate-calculator"
         }
       ]
+    },
+    {
+      "title": "NMS Glyph Randomizer",
+      "description": "A simple glyph generator to help you discover places you've never been before!",
+      "imageUrl": "/assets/img/NMSGlyphRandomizer.png",
+      "links": [
+        {
+          "title": "View project website",
+          "url": "https://nmscd.com/NMSGlyphRandomizer/"
+        },
+        {
+          "title": "View repository",
+          "url": "https://github.com/NMSCD/NMSGlyphRandomizer"
+        }
+      ]
     }
   ]
 }
