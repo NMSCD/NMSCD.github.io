@@ -49,7 +49,19 @@ const setCardDisplay = (btn) => {
     }
   });
   projectSection.classList.add(btn.dataset['class']);
+
+  localStorage.setItem('lastPreset', btn.dataset['class']);
 };
+
+document.addEventListener('DOMContentLoaded', () => {
+  const lastPreset = localStorage.getItem('lastPreset');
+  if (lastPreset) {
+    const btn = document.querySelector(`.project-btn[data-class="${lastPreset}"]`);
+    if (btn) {
+      setCardDisplay(btn);
+    }
+  }
+});
 
 const onSearchChange = (searchString) => {
   console.log(searchString);
